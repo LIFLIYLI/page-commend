@@ -1,0 +1,294 @@
+body{
+	background: rgb(239,239,239);
+}
+main>div>div.clearfix:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+h3 {
+	margin: 0 0;
+}
+
+h4 {
+	margin: 0 0;
+}
+
+.gofish_detail_title {
+	border: 1px solid yellow;
+	padding: 15px 15px
+}
+
+.gofish_detail_title>div:first-child {
+	float: left;
+	height: 100%;
+	width: 45%;
+	border: 1px solid blue
+}
+
+.gofish_detail_title>div:last-child {
+	width: 50%;
+	max-width: 386px;
+	/*width: ;*/
+	height: 220px;
+	float: right;
+}
+
+.gofish_detail_title>div:last-child>img {
+	width: 100%;
+	height: 100%;
+}
+
+.gofish_detail_title>div>div {
+	border-bottom: 1px solid #DFDFDF;
+	padding: 18px 0;
+	display: flex
+}
+
+.gofish_detail_title>div>div>div {}
+
+.gofish_detail_title>div>div>div>img {
+	border: 1px solid green;
+	width: 20px;
+	height: 20px;
+	/*消除img水平间隙*/
+	vertical-align: bottom
+}
+
+.gofish_detail_title>div>div>p {
+	margin: 0 10px;
+	color: #50A5E6
+}
+
+.gofish_detail_title>div>table {
+	border-collapse: collapse;
+	border-bottom: 1px solid #DFDFDF;
+	width: 100%;
+}
+
+.gofish_detail_title>div>table>tbody>tr {
+	display: block;
+	margin: 15px 0
+}
+
+.gofish_detail_title>div>table>tbody>tr>td>span {
+	color: #50A5E6
+}
+
+
+/*评论*/
+
+.fish_place_detail_comment {
+	padding: 10px 15px
+}
+
+.fish_place_detail_comment>p {
+	font-size: 1rem;
+	font-weight: bold;
+	border-bottom: 1px solid #DFDFDF
+}
+
+.fish_place_detail_comment>p>span {
+	font-size: 0.6rem;
+	color: #838383;
+}
+
+.fish_place_detail_comment>div.clearfix {
+	margin-bottom: 20px;
+	display: flex;
+	/*font-size:0*/
+}
+
+
+/*.fish_place_detail_comment>div.clearfix:after{
+	display: block;
+	clear: both;
+	content: '';
+}*/
+
+.fish_place_detail_comment>div>div {
+	/*float: left;*/
+	height: 100%;
+	margin-right: 1rem;
+}
+
+.fish_place_detail_comment>div>div>img {
+	width: 40px;
+	height: 40px;
+}
+
+.fish_place_detail_comment>div>ul {
+	list-style: none;
+	border-bottom: 1px solid #DFDFDF;
+	width: 100%;
+	/*float:left;*/
+	margin: 0 0;
+	padding: 0 0 10px 0;
+}
+
+.fish_place_detail_comment>div>ul>li:first-child {
+	display: flex;
+}
+
+.fish_place_detail_comment>div>ul>li:first-child>span {
+	font-size: 0.8rem;
+	line-height: 1rem;
+	height: 1rem;
+	border: 1px solid #55D7C7;
+	color: #55D7C7;
+	border-radius: 2px;
+	padding: 0 4px;
+	margin: 4px 10px 0 10px
+}
+
+.fish_place_detail_comment>div>ul>li:nth-child(2) {
+	margin: 5px 0
+}
+
+.fish_place_detail_comment>div>ul>li:nth-child(2)>img {
+	width: 20px;
+	height: 20px;
+}
+
+.fish_place_detail_comment>div>ul>li:nth-child(3) {
+	margin: 10px 0 8px 0
+}
+
+.fish_place_detail_comment>div>ul>li:last-child {
+	display: flex;
+	justify-content: space-between;
+	color: #6B6B6B
+}
+
+.fish_place_detail_comment>div>ul>li:last-child>div>img {
+	width: 20px;
+	height: 20px;
+}
+
+
+/*分页按钮*/
+
+div.numpage {
+	padding: 0 12%;
+	background: rgb(239, 239, 239);
+}
+
+div.numpage>ul {
+	list-style: none;
+	margin: 0 0;
+	padding-right: 25%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+div.numpage>ul>li {
+	background: white;
+	border: 1px solid #BEBEBE;
+	padding: 5px 10px;
+	margin: 0 10px
+}
+
+div.numpage>ul>div {
+	font-size: 1rem;
+	font-weight: bold;
+}
+/*留言板------周边*/
+div.leave_message{
+padding:0 12%;
+background: rgb(239,239,239);
+	
+}
+div.leave_message>div:first-child{
+	border:1px solid #DFDFDF;
+	background: white;
+	margin:20px 0;
+}
+div.leave_message>div:first-child>p{
+	margin:0 0;
+	padding:10px 10px;
+	font-weight: bold;
+	border-bottom:1px solid #DFDFDF;
+
+	
+}
+div.leave_message>div:first-child>div{
+	text-align: end;
+	margin:10px 10px
+	
+}
+div.leave_message>div:first-child>div>div{
+	border: 1px solid #DFDFDF;
+	text-align: left;
+}
+div.leave_message>div:first-child>div>button{
+		background: #4EA2E0;
+		padding:5px 15px;
+		color: white;
+		border:none;
+		margin:10px 0;
+}
+div.leave_message>div:first-child>div>div>textarea{
+border: none;
+ box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+resize: none;
+width: 100%;
+height: 164px;
+padding-top:10px ;
+}
+div.leave_message>div:first-child>div>div>div{
+background:rgb(239,239,239);
+padding:5px 5px;
+text-align: left;
+}
+div.leave_message>div:first-child>div>div>div>img{
+	border:1px solid green
+	width:20px;
+	height: 20px;
+}
+/*周边钓场*/
+div.leave_message>div:last-child{
+	border:1px solid red;
+	border-radius: 4px;
+	background: white;
+	padding:10px 20px;
+	margin-bottom:80px
+
+}
+div.leave_message>div:last-child>div{
+	display: flex;
+	justify-content:space-between;
+}
+div.leave_message>div:last-child>div>ul{
+	list-style: none;
+	margin:10px 0;
+	padding:0 0 ;
+	width: 24%;
+	max-width:280px ;
+}
+div.leave_message>div:last-child>div>ul>li{
+	
+}
+div.leave_message>div:last-child>div>ul>li>div:first-child>img{
+	width: 100%;height: 160px;
+	border-radius:4px
+}
+h4{
+	margin: 5px 0;
+}
+div.leave_message>div:last-child>div>ul>li>div:last-child{
+	display: flex;
+	margin:10px 0;
+/*	justify-content: space-between;*/
+}
+div.leave_message>div:last-child>div>ul>li>div:last-child>p{
+	margin:0 10px 0 0;
+	font-size:0.8rem;
+	line-height:20px ;
+}
+div.leave_message>div:last-child>div>ul>li>div:last-child>img{
+	width: 20px;height: 20px;
+	padding:0 5px
+}

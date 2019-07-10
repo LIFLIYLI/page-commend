@@ -1,0 +1,158 @@
+body{
+	background:rgb(239,239,239);
+}
+main{}
+main>div:first-child>div:first-child>ul{
+	list-style: none;
+	margin: 0 0;
+	padding-right: 10px;
+	padding:0 10px;
+}
+
+main>div:first-child>div{
+	border:1px solid #DFDFDF;
+}
+h3{
+	margin: 0 0;
+	border-bottom:1px solid #DFDFDF;
+	padding:10px 0 10px 10px
+}
+main>div:first-child>div:first-child>ul>li{
+height: 40px;
+line-height: 40px;
+border-bottom:1px solid #DFDFDF
+}
+main>div:first-child>div:first-child>ul>li>img{
+	width: 20px;
+	height: 20px;
+	margin-right:20px;
+	display: inline-block; 
+	vertical-align: middle;
+}
+/*帖子列表*/
+main>div:first-child>div.technique_list{
+	
+}
+main>div:first-child>div.technique_list>div.technique_title{
+padding:10px 10px;
+border-bottom:1px solid #DFDFDF
+}
+main>div:first-child>div.technique_list>div.technique_content{
+margin:0 10px;
+padding:10px 0;
+border-bottom:1px solid #DFDFDF
+}
+div.technique_list>div.clearfix:after{
+	display: block;	
+	content: '';
+	clear:both;
+}
+div.technique_list>div.technique_title>p{
+	float:left;
+	margin:0 0;
+	font-weight: bold;
+}
+div.technique_list>div.clearfix>ul{
+	float:right;
+	list-style: none;
+	margin:0 0;
+	padding:2px 0;
+	display: flex;
+/*	width: 310px;*/
+width: 40%;
+	font-size: 0.8rem;
+	
+}
+div.technique_list>div.clearfix>ul>li{
+	width: 25%;
+}
+/*上面是标题,这是内容,ul属性共用*/
+div.technique_list>div.technique_content>div{
+	float:left;
+	
+}
+div.technique_list>div.technique_content>div>span{
+	vertical-align: middle;
+}
+div.technique_list>div.technique_content>div>img{
+	width: 20px;height: 20px;	
+	vertical-align: middle;
+}
+/*分页按钮*/
+			div.numpage{
+				margin:20px 0	
+			}
+			div.numpage>ul{
+				list-style: none;
+				margin: 0 0 ;
+			
+				display: flex;
+				justify-content: flex-end;
+			}
+			div.numpage>ul>li{
+				background: white;
+				border:1px solid #BEBEBE;
+				padding:3px 5px;
+				margin:0 10px;
+				min-width: 20px;
+				text-align: center;
+			}
+			div.numpage>ul>li.numpage_dian{
+				font-size:1rem;font-weight: bold;	
+				border:none
+			}
+/*留言区*/
+div.leave_message{
+margin:20px 0;
+background: rgb(239,239,239);
+	
+}
+div.leave_message>div{
+	border:1px solid #DFDFDF;
+	background: white;
+
+}
+div.leave_message>div>p{
+	margin:0 0;
+	padding:10px 10px;
+	font-weight: bold;
+	border-bottom:1px solid #DFDFDF;
+
+	
+}
+div.leave_message>div>div{
+	text-align: start;
+	margin:10px 10px
+	
+}
+div.leave_message>div>div>div{
+	border: 1px solid #DFDFDF;
+	text-align: left;
+}
+div.leave_message>div>div>button{
+		background: #4EA2E0;
+		padding:5px 15px;
+		color: white;
+		border:none;
+		margin:10px 0;
+}
+div.leave_message>div>div>div>textarea{
+border: none;
+ box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+resize: none;
+width: 100%;
+height: 164px;
+padding-top:10px ;
+}
+div.leave_message>div>div>div>div{
+background:rgb(239,239,239);
+padding:5px 5px;
+text-align: left;
+}
+div.leave_message>div>div>div>div>img{
+	border:1px solid green
+	width:20px;
+	height: 20px;
+}

@@ -1,0 +1,139 @@
+body,
+html{
+	margin:0 0;
+}
+
+header{
+	
+}
+header>ul{
+	list-style: none;
+	border-top:10px solid rgb(41,90,130);
+	margin: 0 0;
+	background: rgb(248,248,248);
+	padding-right: 15%;
+	text-align: center;
+/*	overflow: hidden;*/
+}
+ul.clearfix:after {
+     content: "";
+     display: block;
+     clear: both;
+     height: 0;
+}
+header>ul>li{
+	float:right;
+	height:40px;
+	width: 5rem;
+	line-height: 40px;border:1px solid red;
+	font-size: 13px;
+	font-weight: bold;
+}
+header>ul>li>img{
+	width: 20px;height: 20px;
+	border-radius: 50%;border:1px solid black;
+	vertical-align: middle;
+	margin:0 4px
+}
+/*头部搜索*/
+div.header_search{
+	border:1px solid blue;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+div.header_search>div.header_search_logo{
+	
+}
+div.header_search>div.header_search_logo>img:first-child{
+	width: 66px;height: 66px;
+	border-radius: 6px;
+}
+div.header_search>div.header_search_logo>img:last-child{
+	height: 50px;
+}
+div.header_search>div.header_search_input{
+position: relative;
+
+
+}
+div.header_search>div.header_search_input>input{
+		border:1px solid rgb(77,162,227);
+		border-radius:4px;
+		width: 300px;
+		height: 40px;
+			padding-left: 1rem;
+
+
+}
+div.header_search>div.header_search_input>div{
+position:absolute;
+right: 0;top:0;
+		background-color:rgb(78,161,227) ;
+		height:44px ;
+		width: 44px;
+		border-radius: 0 4px 4px 0;
+}
+div.header_search>div.header_search_input>div>img{	
+	width: 30px;
+	height: 30px;
+	margin:7px 7px;
+}
+div.nav_bar{
+	background: rgb(78,162,224);
+	height: 80px;
+	line-height: 80px;
+	padding:0 15%
+}
+div.nav_bar>ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 0;
+	font-size:20px;
+	color:white;
+}
+div.nav_bar>ul>li.nav_bar_code{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+div.nav_bar>ul>li>img{
+	width: 50px;height: 50px;
+	
+ }
+div.nav_bar>ul>li>div	{
+	font-size: 4px;
+	color: white;
+	height: 20px;
+	line-height: 20px;
+}
+
+/*底部*/
+footer{
+		border:1px solid gold;
+		padding:20px  4%;
+		background: rgb(50,50,50);
+}
+footer>div.last_div{
+	display: flex;
+	justify-content:space-around;
+
+
+
+}
+footer>div.last_div>div>img{
+ width: 116px;height: 116px;
+}
+footer>div.last_div>div>p{
+	font-size: 0.6rem;
+	color: white;
+	text-align: center;
+}
+footer>div:last-child{
+	font-size: 0.5rem;
+	color: white;
+	text-align: center;
+	margin:10px 0;
+}

@@ -1,0 +1,121 @@
+main{
+width: 1196px;
+margin:20px auto;
+}
+/*第一块(上至下)*/
+main>div.video_pandect{
+	display: flex;
+}
+main>div.video_pandect>div{
+border:1px solid green;
+margin-right: 8px;
+}
+main>div.video_pandect>div>div{
+width:600px;
+height: 340px;
+position: relative;
+}
+main>div.video_pandect>div>div>img:first-child{
+width:100%;
+height: 100%;
+border-radius: 6px;
+}
+main>div.video_pandect>div>div>img:last-child{
+width:40px;
+height: 40px;
+position:absolute;
+right: 10px;bottom:10px;
+}
+/*4格视频*/
+ul.video_four_check{
+
+}
+
+
+/*视频小图*/
+main ul.video_once{
+list-style: none;
+margin: 0 0;
+padding:0 0;
+border:1px solid red;
+	display: flex;
+
+}
+main ul.video_once>li:nth-child(3){
+margin:0 10px;
+}
+main ul.video_once>li:first-child{
+margin-right:10px;
+}
+main ul.video_four_check>li:nth-child(1){
+margin-right:8px;
+}
+main ul.video_once>li>p{
+margin:5px 0;
+}
+main ul.video_once>li>div{
+	width: 290px;
+	height: 164px;
+	position: relative;
+	
+}
+
+main ul.video_once>li>div>img:first-child{
+width: 100%;
+height: 100%;
+border-radius: 6px;
+}
+main ul.video_once>li>div>img:last-child{
+width: 40px;height: 40px;
+position:absolute;
+right: 10px;
+bottom:10px
+}
+/*热门视频*/
+div.hot_video{
+	
+}
+div.hot_video>h3{
+border-bottom:6px solid #4ea2e3;
+padding:10px 0;
+
+}
+
+main ul.video_once_one{
+list-style: none;
+margin: 0 0;
+padding:0 0;
+border:1px solid red;
+font-size: 0;
+
+}
+main ul.video_once_one>li{
+display: inline-block;
+width: 25%;
+margin-bottom:20px
+}
+
+
+main ul.video_once_one>li>p{
+margin:5px 0;
+font-size:0.8rem;
+padding-left:4px
+}
+main ul.video_once_one>li>div{
+	width: 290px;
+	height: 164px;
+	position: relative;
+	margin:0 auto
+}
+
+main ul.video_once_one>li>div>img:first-child{
+width: 100%;
+height: 100%;
+border-radius: 6px;
+}
+main ul.video_once_one>li>div>img:last-child{
+width: 40px;height: 40px;
+position:absolute;
+right: 10px;
+bottom:10px
+}

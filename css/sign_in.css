@@ -1,0 +1,118 @@
+/*主体部分*/
+main{
+	border:1px solid red;
+	display: flex;
+	padding: 4% 20% 10% 20%;
+}
+main>div{
+	border:1px solid green;
+	width: 50%;
+	text-align: center;
+	height: 20rem;
+	
+}
+main>div>div{
+	font-size:16px;
+	font-weight: bold;
+	margin:auto auto;
+	border:1px solid black;
+	color: rgb(27,27,27);
+
+}
+main>div>div>img{
+	width: 116px;height: 116px;
+}
+main>ul{
+	border:1px solid blue;
+	list-style: none;
+	width: 50%;
+	min-width: 320px;
+	text-align: center;
+	margin:0 0;
+}
+main>ul>li>input{
+	height: 40px;width: 70%;
+	border:1px solid rgb(202,202,202);
+	padding-left:1rem;
+	
+}
+main>ul>li:nth-child(1){
+	margin-bottom:34px;
+}
+main>ul>li>div>input[type="checkbox"] {
+	 border:10px solid red;width: 15px;height: 15px;background-color: red;
+}
+main>ul>li.choose_remember{
+	/*display: flex;*/
+	border:1px solid red;
+	width: 70%;
+	margin: 20px auto;
+	font-size: 0.6rem;
+}
+main>ul>li.clearfix:after{
+	display: block;
+	content:'';
+	clear: both;
+}
+main>ul>li.choose_remember>div:first-child{
+	float:left;	
+	display: flex;
+}
+
+main>ul>li.choose_remember>div:last-child{
+	float:right;
+	color: rgb(85,152,203);
+	padding:0 10px
+}
+main>ul>li.sign_in{
+	width: 70%;
+	margin: 0 auto;
+	
+}
+main>ul>li.sign_in.clearfix:after{
+	display: block;
+	clear: both;
+	content:''
+}
+main>ul>li.sign_in>button{
+	width: 40%;
+	height: 40px;
+	border:1px solid #a0a0a0;
+	background:white;
+	font-size:1rem;
+	line-height: 40px;
+	text-align: center;
+	font-weight: blod;
+}
+main>ul>li.sign_in>button:first-child{
+	background: rgb(76,162,224);
+	float:left;
+	color: white;
+}
+main>ul>li.sign_in>button:last-child{
+	float:right
+}
+main>ul>li.qq_weixin{
+	border:1px solid green;
+	width: 70%;
+	min-width: 240px;
+	margin: 20px auto;
+	display: flex;
+	justify-content:flex-start;
+	
+}
+main>ul>li.qq_weixin>div>img{
+	width: 28px;
+	height: 28px;
+	padding-right:10px
+}
+main>ul>li.qq_weixin>div{
+display: flex;
+font-size: 0.9rem;
+/*font-weight:bold;*/
+line-height: 30px;
+
+}
+main>ul>li.qq_weixin>div:nth-child(2){
+	margin-left:50px
+}

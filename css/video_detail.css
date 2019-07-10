@@ -1,0 +1,403 @@
+body {
+	background: rgb(239, 239, 239);
+}
+
+main {
+	border: 1px solid black;
+	background: rgb(239, 239, 239);
+	/*	padding:20px 12%;*/
+	display: flex;
+	width: 1270PX;
+	margin: 20px auto 0 auto;
+}
+
+main>div:first-child {
+	/*width: 75%;*/
+}
+
+main>div:last-child {
+	margin-left: 20px;
+	/*width: 25%;*/
+}
+
+
+/*mian-左上*/
+
+main>div:first-child>div:first-child {
+	border-radius: 4px;
+	background: white;
+	/*padding:0 10px*/
+}
+
+
+/*main-左中*/
+
+main>div:first-child>div:nth-child(2) {
+	border: 1px solid red;
+	margin-top: 20px;
+	background: white;
+	border-radius: 4px
+}
+
+
+/*热门鱼获板块*/
+
+h4 {
+	margin: 10px 0
+}
+
+main>div.hot_getfish>div {
+	border-radius: 4px;
+	background: white;
+}
+
+main>div.hot_getfish>div:first-child {
+	padding: 10px 5px 10px 15px;
+	margin-bottom: 20px;
+	border: 1px solid green;
+}
+
+main>div.hot_getfish>div:last-child {
+	padding: 10px 5px 10px 15px
+}
+
+main>div.hot_getfish>div>div {
+	padding: 10px 0px 10px 0px
+}
+
+main>div.hot_getfish>div>div>div {
+	display: flex;
+	align-items: initial;
+}
+
+main>div.hot_getfish>div>div>div>div:first-child {
+	width: 84px;
+	height: 60px;
+}
+
+main>div.hot_getfish>div>div>div>div>p {
+	font-size: 13px;
+	margin: 0 0;
+	padding-left: 10px;
+	height: 40px;
+	overflow: hidden;
+}
+
+main>div.hot_getfish>div>div>div>div {
+	width: 100%;
+}
+
+main>div.hot_getfish>div>div>div>div>div {
+	width: 100%;
+	font-size: 13px;
+	text-align: end;
+	margin: 0 0;
+}
+
+main>div.hot_getfish>div>div>div>div>img {
+	width: 84px;
+	height: 60px;
+}
+
+
+/*播放区*/
+
+main>div:first-child>div.videoplayer_box {
+	border: 1px solid blue;
+	border-radius: 4px 4px 0 0;
+}
+
+div.videoplayer_box>div:first-child {
+	width: 900px;
+	height: 600px;
+	background: #222222;
+	padding: 10px 10px
+}
+
+div.videoplayer_box>div:first-child>h3 {
+	color: white;
+}
+
+div.videoplayer_box>div:nth-child(2)>ul {
+	list-style: none;
+	padding: 0 0;
+	margin: 0 0;
+	display: flex;
+}
+
+div.videoplayer_box>div:nth-child(2)>ul>li {
+	border: 1px solid yellow;
+	margin: 15px 20px
+}
+
+div.videoplayer_box>div:nth-child(2)>ul>li>img {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+div.videoplayer_box>div:nth-child(2)>ul>li>span {
+	font-size: 18px;
+	color: #A0A0A0;
+	/*inline上下浮动*/
+	vertical-align: middle;
+}
+
+div.videoplayer_box>div:first-child>div.videoplayer_box_video {
+	height: 468px;
+	border-radius: 4px;
+	background: white;
+}
+
+div.videoplayer_box>div:first-child>div.videoplayer_box_video>video {
+	height: 100%;
+	width: 100%;
+}
+
+
+/*vd控件*/
+
+div.videoplayer_box>div:first-child>ul {
+	border: 1px solid red;
+	list-style: none;
+	padding: 00;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.videoplayer_box>div:first-child>ul>li>img {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle
+}
+
+div.videoplayer_box>div:first-child>ul>li:nth-child(even) {
+	color: white;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+div.videoplayer_box>div:first-child>ul>li:nth-child(3) {
+	width: 714px;
+	height: 30px;
+	vertical-align: middle;
+	padding: 0 1rem
+}
+
+div.videoplayer_box>div:first-child>ul>li:nth-child(3)>div {
+	display: inline-block;
+	height: 4px;
+	width: 100%;
+	background: #a0a0a0;
+	border-radius: 4px;
+}
+
+div.videoplayer_box>div:first-child>ul>li:nth-child(3)>div {
+	display: inline-block;
+	height: 4px;
+	width: 100%;
+	background: #a0a0a0;
+	border-radius: 4px;
+}
+
+div.videoplayer_box>div:first-child>ul>li:nth-child(3)>div>div {
+	width: 30%;
+	height: 100%;
+	background: #55d0b0;
+	border-radius: 4px;
+	position: relative;
+}
+
+div.videoplayer_box>div:first-child>ul>li:nth-child(3)>div>div::after {
+	content: " ";
+	display: block;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background: white;
+	border: 4px solid rgb(112, 175, 164);
+	position: absolute;
+	right: -10px;
+	top: -11px;
+}
+
+
+/*视频评论区*/
+
+.video_detail_comment {
+	padding: 10px 15px
+}
+
+.video_detail_comment h3 {
+	margin: 0 0;
+}
+
+.video_detail_comment>p {
+	font-size: 1rem;
+	font-weight: bold;
+	border-bottom: 1px solid #DFDFDF
+}
+
+.video_detail_comment>p>span {
+	font-size: 0.6rem;
+	color: #838383;
+}
+
+.video_detail_comment>div.video_comment_user_list>div.clearfix {
+	margin-bottom: 20px;
+	display: flex;
+	/*font-size:0*/
+}
+
+
+/*.fish_place_detail_comment>div.clearfix:after{
+	display: block;
+	clear: both;
+	content: '';
+}*/
+
+.video_detail_comment>div.video_comment_user_list>div>div {
+	/*float: left;*/
+	height: 100%;
+	margin-right: 1rem;
+}
+
+.video_detail_comment>div.video_comment_user_list>div>div>img {
+	width: 40px;
+	height: 40px;
+}
+
+.video_detail_comment>div.video_comment_user_list>div>ul {
+	list-style: none;
+	border-bottom: 1px solid #DFDFDF;
+	width: 100%;
+	/*float:left;*/
+	margin: 0 0;
+	padding: 0 0 10px 0;
+}
+
+.video_detail_comment>div.video_comment_user_list>div>ul>li:first-child {
+	display: flex;
+}
+
+.video_detail_comment>div.video_comment_user_list>div>ul>li:first-child>span {
+	font-size: 0.8rem;
+	line-height: 1rem;
+	height: 1rem;
+	border: 1px solid #55D7C7;
+	color: #55D7C7;
+	border-radius: 2px;
+	padding: 0 4px;
+	margin: 4px 10px 0 10px
+}
+
+.video_detail_comment>div.video_comment_user_list>div>ul>li:nth-child(2) {
+	margin: 5px 0
+}
+
+.video_detail_comment>div.video_comment_user_list>div>ul>li:nth-child(2)>img {
+	width: 20px;
+	height: 20px;
+}
+
+.video_detail_comment>div.video_comment_user_list>div>ul>li:nth-child(3) {
+	margin: 10px 0 8px 0
+}
+
+.video_detail_comment>div.video_comment_user_list>div>ul>li:last-child {
+	display: flex;
+	justify-content: space-between;
+	color: #6B6B6B
+}
+
+.video_detail_comment>div.video_comment_user_list>div>ul>li:last-child>div>img {
+	width: 20px;
+	height: 20px;
+}
+
+
+/*分页*/
+
+div.numpage {
+	margin-bottom: 20px;
+}
+
+div.numpage>ul {
+	list-style: none;
+	margin: 0 0;
+	
+	display: flex;
+	justify-content: flex-end;
+}
+
+div.numpage>ul>li {
+	background: white;
+	border: 1px solid #BEBEBE;
+	padding: 5px 10px;
+	margin: 0 10px;
+	min-width: 12px;
+	text-align: center;
+}
+
+div.numpage>ul>li.numpage_dian {
+	font-size: 1rem;
+	font-weight: bold;
+	border: none;
+	margin:0 0px
+}
+/*留言板*/
+div.leave_message{
+width: 1270px;
+margin: 0  auto 80px auto;
+background: rgb(239,239,239);
+	
+}
+div.leave_message>div:first-child{
+	border:1px solid #DFDFDF;
+	background: white;
+	margin:20px 0;
+}
+div.leave_message>div:first-child>p{
+	margin:0 0;
+	padding:10px 10px;
+	font-weight: bold;
+	border-bottom:1px solid #DFDFDF;
+
+	
+}
+div.leave_message>div:first-child>div{
+	text-align: end;
+	margin:10px 10px
+	
+}
+div.leave_message>div:first-child>div>div{
+	border: 1px solid #DFDFDF;
+	text-align: left;
+}
+div.leave_message>div:first-child>div>button{
+		background: #4EA2E0;
+		padding:5px 15px;
+		color: white;
+		border:none;
+		margin:10px 0;
+}
+div.leave_message>div:first-child>div>div>textarea{
+border: none;
+ box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+resize: none;
+width: 100%;
+height: 164px;
+padding-top:10px ;
+}
+div.leave_message>div:first-child>div>div>div{
+background:rgb(239,239,239);
+padding:5px 5px;
+text-align: left;
+}
+div.leave_message>div:first-child>div>div>div>img{
+	border:1px solid green
+	width:20px;
+	height: 20px;
+}
